@@ -12,12 +12,14 @@ import java.util.List;
 @RestController
 public class spring_azure_demo {
 
+
+
 	public static void main(String[] args) {
 		SpringApplication.run(spring_azure_demo.class, args);
 	}
 
 	@GetMapping("/api/demo")
 	public List<String> getDemoData() {
-		return Arrays.asList("Sample Data 1", "Sample Data 2", "Sample Data 3");
+		return Arrays.asList("Hey, Congratulations your application deployed successfully..!");
 	}
 }
