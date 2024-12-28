@@ -20,6 +20,6 @@ public class spring_azure_demo {
 
 	@GetMapping("/api/demo")
 	public List<String> getDemoData() {
-		return Arrays.asList("Hey, Congratulations your application deployed successfully..!");
+		return Arrays.asList("Hey Rushita, Congratulations your application deployed successfully..!");
 	}
 }
